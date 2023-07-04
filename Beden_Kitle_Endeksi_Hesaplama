@@ -1,0 +1,22 @@
+print("""****************
+Beden Kitle Endeksi Hesaplama 
+""")
+
+boy = float(input("Boy : "))
+kilo = int(input("Kilo : "))
+
+
+BKİ = int(kilo/boy**2)
+
+print(kilo/boy**2)
+
+if BKİ < 18 :
+    print("Zayıf")
+elif 18.5 < BKİ < 25 :
+    print("Normal")
+elif 25 < BKİ < 30 :
+    print("Fazla Kilolu")
+elif BKİ>30 :
+    print("Obez")
+elif BKİ< 0 :
+    print(" Geçersiz ")
